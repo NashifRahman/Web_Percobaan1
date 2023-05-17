@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(images/wallpaper1.jpg);
+}
+
+/* login tengah */
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* kotak */
+.login{
+    margin-top: 85px;
+    flex-basis: 400px;
+    background: #fff;
+    padding: 20px;
+}
+
+/* kalimat tengah */
+.login h2{
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    color: #555;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+
+/* list */
+input, select{
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+}
+
+/* submit */
+input[type=submit]{
+    color: #fff;
+    border-radius: 8px;
+    background-color: #ff6D60;
+    border: none;
+    cursor: pointer;
+}

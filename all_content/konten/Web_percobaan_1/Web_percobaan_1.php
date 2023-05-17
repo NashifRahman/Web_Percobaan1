@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Percobaan</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <!-- bagian atas -->
+    <div id="main">
+      <!-- image kiri -->
+      <a href="https://www.youtube.com/watch?v=MTW4sIL9Dpw"
+        ><img src="image/VERGIL.jpg"
+      /></a>
+      <!-- tulisan kanan -->
+      <div id="kalimat-pertama">
+        <h1>gambar terbaru</h1>
+        <!-- Profil aja -->
+        <div id="profil">
+          <h3>Nama : Nashif Rahman</h3>
+          <h3>Job : Shitposter</h3>
+          <h3>Hobi</h3>
+          <ul id="homie">
+            <li>Turu</li>
+            <li>ngegame</li>
+            <li>Shitposting</li>
+          </ul>
+        </div>
+        <p>
+          Halo, nama saya nashif Rahman. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Impedit, ratione quia. Explicabo debitis aperiam
+          eius maxime, sapiente sed eveniet quas corrupti minus, totam illo.
+          Exercitationem delectus modi autem ullam eaque?
+        </p>
+        <a
+          href="https://www.youtube.com/watch?v=MTW4sIL9Dpw"
+          target="_blank"
+          id="yt-link"
+          >This is my youtube channel</a
+        >
+      </div>
+    </div>
+    <!-- bagian bawah -->
+    <div id="footer">
+      <span>&copy; Copyright 2023</span>
+    </div>
+  </body>
+</html>

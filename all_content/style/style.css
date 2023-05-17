@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body{
+	font-family: "Poppins", sans-serif;
+}
+header{
+    background-color: #1AC8ED;
+	color: #fafaff;
+	padding: 15px 20px;
+	font-size: 20px;
+}
+
+/* untuk menambah background belakang */
+aside{
+	flex: 20%;
+	background: #604e70;
+}
+
+/* bagian menu */
+section.main{
+	flex: 80%;
+	min-height: 450px;
+	background: #e1e3e0;
+	padding: 15px 20px;
+	overflow: scroll;
+}
+
+footer{
+	background: #87A878;
+	text-align: center;
+	padding: 8px;
+	font-size: 15px;
+}
+
+@media(max-width: 700px){
+	.container{
+		flex-direction: column;
+	}
+}
+
+.container{
+	display: flex;
+}
+
+/* navigasi */
+.menu{
+	padding: 0;
+	
+}
+
+/* desain menu */
+aside ul.menu a{
+	display: block;
+	padding: 15px;
+	list-style: none;
+	color: #fafaff;
+	text-decoration: none;
+}
+
+/* background ketika ditunjuk */
+ul.menu a:hover{
+	color: #1c1c1c ;
+	background: #8d8c8c;
+}
+
+.foto{
+	background-color: transparent;
+	background-image: url("../image/user_png.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+	width: 120px;
+	height: 120px;
+	margin: 10px;
+	border-radius: 100%;
+}
+
+.bungkus_foto, .bungkus_profil{
+	display: flex;
+}
+
+.tombol_ganti{
+	align-self: center;
+	padding: 50px 10px;
+}
+.tombol_ganti button a{
+	text-decoration: none;
+	color: #1c1c1c;
+}
+
+.profil_1, .profil_2{
+	margin: 0;
+	margin-top: 15px;
+}
+
+.profil_1 h2, .profil_2 h2{
+	padding: 10px;
+}
+
+#ulti{
+	align-self: center;
+}
