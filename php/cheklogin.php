@@ -8,14 +8,16 @@ $ttl = $_POST["ttl"];
 $mysql = "INSERT INTO test VALUES
 ('$nama', '$usia', '$jk', '$ttl')";
 
-if(!mysqli_query($conn, $mysql))
-die (mysqli_error($conn));
+if (!mysqli_query($conn, $mysql))
+    die(mysqli_error($conn));
 
-echo"
+echo "
 <script>
 alert('Selamat Datang $nama');
 window.location.href='../all_content/halaman.php';
 </script>";
+
+
 
 mysqli_close($conn);
 
